@@ -5,18 +5,38 @@
         <h2>Contactanos</h2>
         <p>Puedes contactarnos llenando el siguiente formulario con tus datos</p>
       </div>
-      <form method="post" action="#">
-      	<div class="row">
-      		<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-      		<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-      		<div class="12u$">
-      			<textarea name="message" placeholder="Message"></textarea>
-      		</div>
-      		<div class="12u$">
-      			<input type="submit" value="Send Message" />
-      		</div>
-      	</div>
-      </form>
     </div>
   </div>
+  <div class="row">
+     <div class="12u">
+       <div id="content">
+         <div class="row">
+           <div class="12u">
+             <section>
+               <h2>Envíanos un correo</h2>
+               <p>Para poder brindarte una atención más personalizada, llena correctamente todos los campos del formulario.</p>
+             </section>
+           </div>
+         </div>
+         <div class="row">
+           <div class="6u 12u(mobile)">
+             <form method="post">
+         			<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre:" value="">
+
+               <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto:" value="">
+
+         			<input type="text" class="form-control" id="correo" name="correo" placeholder="Correo:" value="">
+
+         			<textarea name="mensaje" class="form-control" id="mensaje" placeholder="Mensaje:"></textarea>
+         			<input type="submit" name="submit" class="btn btn-primary" value="Enviar Correo">
+               <?php
+                 $contacto = new ControllerContacto();
+                 $contacto -> ctr_enviar_correo();
+               ?>
+         		</form>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
 </div>

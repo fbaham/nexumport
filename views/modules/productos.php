@@ -16,17 +16,17 @@
           gravida sapien lectus amet lorem tempus ante. Nam ut purus urna, in lacinia purus nulla dictum consequat
           feugiat lorem ipsum dolor sit amet. Nam ut purus urna, in lacinia purus. Nulla dictum, amet tempus.</p>
 
-          <div id="portfolio">
+          <div>
 
             <!-- Titles -->
-              <ul class="style4 titles">
+              <!-- <ul class="style4 titles">
                 <li>Abstract</li>
                 <li>Portraits</li>
                 <li>Landscapes</li>
-              </ul>
+              </ul> -->
 
             <!-- Category 1 -->
-              <div class="category">
+              <!-- <div class="category"> -->
                 <div class="row">
                   <div class="3u 12u(mobile)">
                     <a href="images/portfolio/fulls/pic01.jpg" class="image image-full"><img src="images/portfolio/thumbnails/pic01.jpg" alt="" title="Lorem ipsum dolor sit amet." /></a>
@@ -49,10 +49,10 @@
                     <a href="images/portfolio/fulls/pic03.jpg" class="image image-full"><img src="images/portfolio/thumbnails/pic03.jpg" alt="" title="Tempus purus lacinia urna." /></a>
                   </div>
                 </div>
-              </div>
+              <!-- </div> -->
 
             <!-- Category 2 -->
-              <div class="category">
+              <!-- <div class="category">
                 <div class="row">
                   <div class="3u 12u(mobile)">
                     <a href="images/portfolio/fulls/pic07.jpg" class="image image-full"><img src="images/portfolio/thumbnails/pic07.jpg" alt="" title="Dolor lorem ipsum sed nulla." /></a>
@@ -75,10 +75,10 @@
                     <a href="images/portfolio/fulls/pic05.jpg" class="image image-full"><img src="images/portfolio/thumbnails/pic05.jpg" alt="" title="Magna sed tempus consequat." /></a>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
             <!-- Category 3 -->
-              <div class="category">
+              <!-- <div class="category">
                 <div class="row">
                   <div class="3u 12u(mobile)">
                     <a href="images/portfolio/fulls/pic03.jpg" class="image image-full"><img src="images/portfolio/thumbnails/pic03.jpg" alt="" title="Feugiat tempus dictum nullam." /></a>
@@ -101,7 +101,7 @@
                     <a href="images/portfolio/fulls/pic01.jpg" class="image image-full"><img src="images/portfolio/thumbnails/pic01.jpg" alt="" title="Urna lectus adipiscing tempus." /></a>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
             <!-- Back to top -->
               <a href="#" class="button button-top">Back To Top</a>

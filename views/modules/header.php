@@ -1,11 +1,3 @@
-<?php
-$path = '';
-if(isset($_GET["path"])){
-  $path = $_GET["path"];
-}else{
-  $path = 'inicio';
-}
-?>
 <div class="container">
   <div class="row">
     <div class="12u">
@@ -14,7 +6,7 @@ if(isset($_GET["path"])){
         <header id="header">
 
           <!-- Logo -->
-            <h1><a href="incio" id="logo">Nexumport</a></h1>
+            <h1><a href="inicio" id="logo">Nexumport</a></h1>
 
           <!-- Nav -->
             <nav id="nav">

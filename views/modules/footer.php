@@ -3,14 +3,14 @@
   <!-- Footer Content -->
     <div class="row">
 
-      <div class="4u 12u(mobile)">
+      <div class="6u 12u(mobile)">
         <section>
           <h2>Magna feugiat consequat</h2>
           <p>Nam ut purus urna, in lacinia purus. Nulla dictum, amet tempus pulvinar vehicula, orci et tellus gravida sapien lectus amet lorem tempus ante. Nam ut purus urna, in lacinia purus nulla dictum consequat feugiat lorem ipsum dolor sit amet.</p>
         </section>
       </div>
 
-      <div class="4u 12u(mobile)">
+      <!-- <div class="4u 12u(mobile)">
         <section>
           <h2>Gravida tempus veroeros</h2>
           <ul class="style5">
@@ -19,9 +19,9 @@
             <li><span class="date">July 18</span><a href="#">Nam ut purus urna in lacinia nulla dictum</a></li>
           </ul>
         </section>
-      </div>
+      </div> -->
 
-      <div class="4u 12u(mobile)">
+      <div class="6u 12u(mobile)">
         <section>
           <h2>Magna feugiat consequat</h2>
           <p>Urna in lacinia purus nulla dictum neque vehicula orci tellus.</p>
@@ -40,7 +40,7 @@
   <!-- Copyright -->
     <div class="row">
       <div id="copyright" class="12u">
-        &copy; Untitled. All rights reserved.
+        &copy; Nexumport. Todos los derechos reservados.<br>Sitio web desarrollado por <a href="https://fbcreativos.cl"> FB Creativos</a>
       </div>
     </div>
 

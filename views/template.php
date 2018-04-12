@@ -1,3 +1,11 @@
+<?php
+$path = '';
+if(isset($_GET["path"])){
+  $path = $_GET["path"];
+}else{
+  $path = 'inicio';
+}
+?>
 <!DOCTYPE HTML>
 <!--
 	Standout by Pixelarity
@@ -6,13 +14,14 @@
 -->
 <html>
 	<head>
-		<title>Untitled</title>
+		<title>Nexumport</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/estilos.css">
 	</head>
-	<body class="homepage">
+	<body <?php if ($path == "inicio"): ?> class="homepage"<?php else: ?> class="no-sidebar"<?php endif; ?>>
 		<div id="page-wrapper">
 
 			<!-- Header Wrapper -->
