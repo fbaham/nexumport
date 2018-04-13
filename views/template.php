@@ -7,11 +7,6 @@ if(isset($_GET["path"])){
 }
 ?>
 <!DOCTYPE HTML>
-<!--
-	Standout by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
 <html>
 	<head>
 		<title>Nexumport</title>
